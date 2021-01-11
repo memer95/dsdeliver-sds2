@@ -1,13 +1,11 @@
 import React from 'react';
 import "./styles.css";
-import NavBar from './NavBar';
-import Footer from './Footer';
+import Routes from './Routes';
 
 function App() {
   return (
    <>
-    <NavBar />
-    <Footer />
+    <Routes />
    </>
   );
 }
